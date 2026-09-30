@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pearl",
+  "version": "${version}",
+  "name": "Pearl",
+  "description": "Pearl — a private, visual-first Fabric client for scripted/consented Minecraft videos.",
+  "authors": ["SleazyDecode"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.pearl.client.PearlClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
